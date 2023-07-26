@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "452594223418",
+    "project_id": "chatbox-f64e4",
+    "storage_bucket": "chatbox-f64e4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:452594223418:android:fce444706fbfd46ca26803",
+        "android_client_info": {
+          "package_name": "com.bamidele.ajewole.chatbox"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "452594223418-5fqq1st389u0frrduhusi4ahpf29g7hl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bamidele.ajewole.chatbox",
+            "certificate_hash": "2d4c1e040004d6e57a11a41dcfc7dd4b290a7323"
+          }
+        },
+        {
+          "client_id": "452594223418-8ncdne7qdoneutjk9elq633b7scsmcu4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuI35CoSv0lbkIEd6PmUvI9pg_wEmiU8Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "452594223418-8ncdne7qdoneutjk9elq633b7scsmcu4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
