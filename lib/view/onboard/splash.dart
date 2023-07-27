@@ -1,6 +1,8 @@
 import 'dart:async';
 
 import 'package:auto_route/annotations.dart';
+import 'package:chatbox/utils/app_router/router.dart';
+import 'package:chatbox/utils/app_router/router.gr.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
@@ -41,13 +43,11 @@ class _SplashScreenState extends State<SplashScreen>
       //navigateToHome();
     } else {
       // User is not authenticated, navigate to the login screen
-      // navigateToLogin();
+      navReplace(context, const LoginRoute());
     }
   }
 
   //void navigateToHome() => context.router.replace(const PersistentTabRoute());
-
-  //void navigateToLogin() => context.router.replace(const LoginScreenRoute());
 
   @override
   void dispose() {
